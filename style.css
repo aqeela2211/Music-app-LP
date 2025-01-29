@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.FIRST{
+    background-image: url(./img/PERFECT.png);
+    background-position:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.FIRST h1{
+   
+    font-size: 50px;
+    font-weight: 700;
+    color:rgb(1, 58, 1) ;
+   justify-self: center;
+    
+}
+.FIRST p{
+    padding-top: 20px;
+    text-align: center;
+    justify-self: center;
+    font-size: 20px;
+}
+.FIRST button{
+    color:rgb(1, 58, 1) ;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.FIRST button:hover{
+    color: #faf9f6ea ;
+    background-color: transparent;
+    border: 1px solid #faf9f6ea;
+}
+
+.second{
+    background-color: rgba(3, 43, 27, 0.877) ;
+    height: 600px;
+}
+.pi{
+    display: flex;
+    gap: 30px;
+}
+.second .para{
+    margin-left:100px;
+    margin-top: 50px;
+}
+.para h1{
+    font-size: 40px;
+    color: rgb(243, 187, 2);
+}
+.para p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.image{
+    margin-top:30px ;
+}
+.second h4{
+    margin-top: 35px;
+    justify-self: center;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.SD{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.ci{
+    justify-content: center;
+    align-items: center;
+}
+.SD p{
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+}
+
+.SD img{
+    justify-self: center;
+    padding-top: 10px;
+    padding-bottom:2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 60px;
+    height: 60px;
+}
+.ci img{
+    margin-left: 40px;
+}
+.cir img{
+    margin-top: 7px;
+    height:65px ;
+    width: 65px;
+}
+.circ img{
+    margin-left:35px ;
+}
+.third{
+    height: 450px;
+    background-color: #faf9f6fa;
+    display: flex;
+    gap: 40px;
+}
+.third .image2{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.third .rev{
+    margin-top: 60px;
+    text-align: right;
+
+}
+.para2{
+    font-size: 22px;
+}
+#bold{
+    font-weight: bolder;
+}
+.para3{
+    margin-top: 25px;
+}
+.third button{
+    background-color: rgba(3, 43, 27, 0.877) ;
+    color: white;
+    border-radius: 10px;
+    border: 1px none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.third button:hover{
+    color: rgba(3, 43, 27, 0.877) ;
+    background-color: transparent;
+    border: 1px solid  rgba(3, 43, 27, 0.877)  ;
+}
+
+.fourth{
+    background-color: rgba(3, 43, 27, 0.877) ;
+    height: 450px;
+}
+.fourth h1{
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.fourth .reviews{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.fourth p{
+    text-align: right;
+    color: white;
+}
+#name{
+    color: rgb(245, 173, 106);
+    margin-left: 130px;
+}
+
+.fifth{
+    height: 600px;
+    background-color: #faf9f6ea;;
+}
+.fifth h1{
+    padding-top: 30px;
+    text-align: center;
+    color: rgba(3, 43, 27, 0.877) ;
+    font-size: 35px;
+}
+.fifth .Forms{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.form1{
+    justify-content: center;
+    width: 280px;
+    height: 410px;
+    background-color: #fff;
+    border: 1px solid white;
+}
+.form1 h2{
+    text-align: center;
+    padding-top: 30px;
+    color:rgb(245, 173, 106);
+    font-size: 35px;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.no{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(3, 43, 27, 0.877) ;
+}
+.form1 p{
+    color: rgba(3, 43, 27, 0.877) ;
+    text-align: center;
+    padding-top:30px;
+}
+.form1 button{
+    margin-top: 20px;
+    justify-self: center;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #faf9f6fa;
+    background-color: rgba(3, 43, 27, 0.877) ;
+    border-radius: 10px;
+    border: 1px none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form1 button:hover{
+    color:rgba(3, 43, 27, 0.877) ;
+    background-color: transparent;
+    border: 1px solid rgba(3, 43, 27, 0.877) ;
+}
+
+.form3{
+    justify-content: center;
+    width: 280px;
+    height: 410px;
+    background-color: #fff;
+    border: 1px solid white;
+
+}
+.form3 h2{
+    text-align: center;
+    padding-top: 30px;
+    color:rgb(245, 173, 106);
+    font-size: 35px;
+}
+.form3 p{
+    color: rgba(3, 43, 27, 0.877) ;
+    text-align: center;
+    padding-top:30px;
+}
+.form3 button{
+    margin-top: 20px;
+    justify-self: center;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #faf9f6fa;
+    background-color: rgba(3, 43, 27, 0.877) ;
+    border-radius: 10px;
+    border: 1px none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form3 button:hover{
+    color:rgba(3, 43, 27, 0.877) ;
+    background-color: transparent;
+    border: 1px solid rgba(3, 43, 27, 0.877) ;
+}
+
+.form2{
+    justify-content: center;
+    width: 230px;
+    height: 410px;
+    background-color:rgba(3, 43, 27, 0.877) ;
+    border: 1px none;
+}
+.form2 h2{
+    text-align: center;
+    padding-top: 30px;
+    color:#faf9f6fa;
+    font-size: 35px;
+}
+.form2 p{
+    color: white;
+    text-align: center;
+    padding-top:30px;
+}
+.form2 .group{
+    color: #faf9f6fa;
+}
+.form2 .no{
+    color: #faf9f6fa;
+}
+.form2 button{
+    margin-top: 20px;
+    justify-self: center;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #faf9f6fa;
+    color: rgba(3, 43, 27, 0.877) ;
+    border-radius: 10px;
+    border: 1px none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form2 button:hover{
+    color: #faf9f6ea;
+    background-color: transparent;
+    border: 1px solid #faf9f6ea;
+}
+
+.sixth{
+    height: 500px;
+    background-color:  rgba(3, 43, 27, 0.877) ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.sixth form{
+    margin-top: 40px;
+    color: #faf9f6fa;
+}
+.sixth form h1{
+    color: #faf9f6fa;
+    padding-top: 70px;
+    font-size: 35px;
+}
+.form4 p{
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+label{
+    font-size: 18px;
+}
+.form4 button{
+    margin-top: 10px;
+   background-color:rgb(245, 173, 106);
+   color:rgba(3, 43, 27, 0.877)  ;
+   border-radius: 10px;
+   border: 1px none;
+   cursor: pointer;
+   width: 35%;
+   padding-top:7px;
+   font-weight: 400;
+   padding-bottom: 7px;
+   transition: 0.5s;
+}
+.form4 button:hover{
+    background-color:transparent;
+    color: #faf9f6ea;
+    border: 1px solid #faf9f6ea;
+}
+
+.img3{
+    margin-top: 80px;
+}
+#in{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 20px;
+    border: 1px solid rgb(128, 125, 125);
+}
